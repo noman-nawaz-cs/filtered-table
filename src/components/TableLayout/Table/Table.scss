@@ -1,0 +1,49 @@
+.table-container {
+    overflow-x: auto;
+}
+
+.responsive-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 9px 16px;
+    text-align: left;
+    font-family: 'GothamBook';
+    color: #002A3A;
+}
+
+th {
+    border-bottom: 1px solid #CCD4D7;
+    color: #002A3A;
+    padding: 6px 1px 6px 15px;
+}
+
+
+.TableHeading{
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 16px;
+    gap: 8px;
+    font-family: 'GothamBook';
+    padding: 5px 12px 5px 0px;
+
+    img {
+        transition: transform 0.3s ease;
+    }
+
+    .rotate {
+        transform: rotate(180deg);
+    }
+}
+// @media (max-width: 768px) {
+//     .responsive-table {
+//     font-size: 14px;
+//     }
+
+//     th, td {
+//     padding: 8px;
+//     }
+// }

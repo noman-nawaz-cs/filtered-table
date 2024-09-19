@@ -1,0 +1,21 @@
+@font-face { 
+    font-family: 'GothamMedium';  
+    src: url('./assets/fonts/Gotham/GothamMedium.otf') format('opentype'); 
+} 
+
+@font-face { 
+    font-family: 'GothamBold';  
+    src: url('./assets/fonts/Gotham/GothamBold.otf') format('opentype'); 
+} 
+
+@font-face { 
+    font-family: 'GothamBook';  
+    src: url('./assets/fonts/Gotham/GothamBook.otf') format('opentype'); 
+} 
+
+.App{
+    background: linear-gradient(to right, rgba(255, 255, 255, 0.49) 0%, #999999 100%);
+    height:100vh;
+    display: flex;
+    flex-direction: column;
+}

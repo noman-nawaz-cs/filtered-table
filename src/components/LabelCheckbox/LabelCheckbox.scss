@@ -1,0 +1,12 @@
+.LabelCheckbox{
+    display: flex;
+    align-items: center;
+    gap:10px;
+    width: 100%;
+    padding: 8px 15px 8px 8px;
+    box-sizing: border-box;
+}
+
+.with-border-top {
+    border-top: 1px solid #CCD4D7;
+}

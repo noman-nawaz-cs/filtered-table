@@ -1,0 +1,29 @@
+.Input {
+    width: 200px;
+    padding: 13px 11px 13px 18px;
+    border: 1px solid #CCD4D7;
+    border-radius: 16px;
+    font-size: 15px;
+    outline: none;
+    color: #002A3A;
+    font-family: 'GothamBook';
+    // &:focus {
+    //     border-color: #05A569; /* Optional: Change border color on focus */
+    // }
+}
+
+.InputLabel {
+    position: absolute;
+    background-color: white;
+    padding: 0 5px;
+    top: -12px; 
+    left: 13px;
+    font-size: 15px;
+    color: #002A3A;
+    font-family: 'GothamBook';
+}
+
+.InputWrapper {
+    position: relative;
+    display: inline-block;
+}

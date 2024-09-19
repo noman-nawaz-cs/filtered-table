@@ -1,25 +1,22 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import FilterBar from './components/FilterNavigation/FilterBar';
+import StagePopup from './components/StagePopup/StagePopup';
+import Popup from './components/Popup/Popup';
+import RangePopup from './components/RangePopup/RangePopup';
+import './App.scss';
+import TableLayout from './components/TableLayout/TableLayout';
+import { DataProvider } from './context/DataContext';
+import TableContainer from './components/TableContainer/TableContainer';
 
 function App() {
+  
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <DataProvider>
+      <div className='App'>
+        <TableContainer/>
+      </div>
+    </DataProvider>
+    
+    
   );
 }
 

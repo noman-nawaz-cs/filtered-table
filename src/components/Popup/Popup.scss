@@ -1,0 +1,14 @@
+.Popup{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:fit-content;
+    background-color: rgba(255,255,255);
+    border-radius: 16px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 6px 0;
+    position: absolute;
+    top:44px;
+    left:0;
+    z-index: 1;
+}

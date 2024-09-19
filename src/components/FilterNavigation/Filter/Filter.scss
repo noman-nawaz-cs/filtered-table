@@ -1,0 +1,27 @@
+.Filter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 16px;
+    padding: 11px;
+    background-color: white;
+    gap: 8px;
+    font-family: 'GothamBook';
+    font-size: 15px;
+    position:relative;
+    cursor: pointer;
+
+    img {
+        transition: transform 0.3s ease;
+    }
+
+    .rotate {
+        transform: rotate(180deg);
+    }
+}
+
+.FilterOption{
+    color: #05A569;
+    font-family: 'GothamMedium';
+    font-size: 15px;
+}
